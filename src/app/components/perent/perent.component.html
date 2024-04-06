@@ -1,0 +1,14 @@
+<div class="custom-container margin">
+  <b>
+    <p>Perent Componet</p>
+  </b>
+  {{test}}
+  
+  <button class="btn" (click)="onSendChild()">Send To Child Componet</button>
+</div>
+
+ <br>
+<div class="custom-container">
+    <app-child  [childData]="parentData" (childEvent)="onChildEvent($event)" ></app-child>
+<br>
+</div>

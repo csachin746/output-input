@@ -1,0 +1,15 @@
+
+.custom-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.btn{
+  background-color:rgba(0, 166, 255, 0.64) ;
+  border-radius: 20px;
+  display: block;
+  padding: 8px;
+  margin-top: 10px;
+}
