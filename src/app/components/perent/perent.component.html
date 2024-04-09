@@ -9,6 +9,11 @@
 
  <br>
 <div class="custom-container">
-    <app-child  [childData]="parentData" (childEvent)="onChildEvent($event)" ></app-child>
+    <!-- <app-child  [childData]="parentData" (childEvent)="onChildEvent($event)" ></app-child> -->
+    <app-child  [childData]="parentData" *ngIf="toogle"  [arrylist]="myArry"></app-child>
+
 <br>
+<button class="btn" (click)="addValue()">Add value</button>
 </div>
+
+<button (click)="loadunload()" class="btn" > Child Componet /load && Unload</button>
